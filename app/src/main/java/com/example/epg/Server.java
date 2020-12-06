@@ -44,7 +44,7 @@ public class Server extends NanoHTTPD {
     }
 
     protected Server(String fileToPresent) {
-        super(8080);
+        super(8099);
         this.fileToPresent = fileToPresent;
     }
 }
